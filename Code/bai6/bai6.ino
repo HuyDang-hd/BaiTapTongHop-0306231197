@@ -34,8 +34,8 @@ void loop() {
     temp=temp+2;
     lcd.print("Hello");
   }
-  if(pre_tat==LOW && btnTrai_now==HIGH){
-    //lcd.noBacklight();
+  if(pre_tat==LOW && btnTat_now==HIGH){
+    lcd.noDisplay();
   }
   pre_phai=btnPhai_now;
   pre_trai=btnTrai_now;
